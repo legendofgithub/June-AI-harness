@@ -1,0 +1,54 @@
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+dist/
+.env
+*.log
+.DS_Store
+Thumbs.db
+github_key
+github_key.pub
+.workbuddy/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+Desktop.ini
+
+# backend log
+backend/backend.log
+
+# 数据库文件（不提交，每个环境独立生成）
+*.db
+*.db-journal
+*.db-wal
+
+# 环境变量模板（只提交 .example，不提交真实 .env）
+.env
+!.env.example
+!.env.development
+
+# E2E test db leftovers
+*.db-shm
+
+# Workbuddy
+.workbuddy/
+
+# Backend test artifacts
+backend/test_write.txt
+
+# 废弃脚本（已有新版替代）
+github_setup.bat
+start.ps1
+start-backend.bat
+stop-backend.bat
+git_push_to_github.ps1
+
+# 部署配置（仅本地，不提交）
+nginx.conf
+june-api.service
